@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Recipe List</h1>
+    <table id="recipes-table">
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Ingredients</th>
+                <th>Instructions</th>
+                <th>Cooking Time</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+    <h2>Add New Recipe</h2>
+    <form id="new-recipe-form">
+        <label>Title: <input type="text" id="title" name="title"></label><br>
+        <label>Ingredients: <input type="text" name="ingredients" id="ingredients"></label><br>
+        <label>Instructions: <input type="text" id="instructions" name="instructions"></label><br>
+        <label>Cooking Time: <input type="number" id="cookingTime" name="cookingTime"></label><br>
+        <button type="submit">Add Recipe</button>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>

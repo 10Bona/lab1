@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+/* Header styling */
+h1, h2 {
+    margin-bottom: 20px;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Form styling */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"],
+button {
+    padding: 10px;
+    font-size: 1rem;
+}
+
+button {
+    width: 150px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Action buttons styling */
+button.update, button.delete {
+    margin-right: 5px;
+}
+
+button.update {
+    background-color: #2196F3;
+}
+
+button.delete {
+    background-color: #f44336;
+}
+
+button.update:hover {
+    background-color: #0b7dda;
+}
+
+button.delete:hover {
+    background-color: #da190b;
+}
